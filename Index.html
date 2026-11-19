@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090817">
+  <meta name="description" content="Découvre spmBOT, ton bot Discord.">
+  <title>spmBOT | Discord Bot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">
+      <span class="logo-icon">S</span>
+      spm<span>BOT</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <nav id="nav">
+      <a href="#home">Accueil</a>
+      <a href="#features">Fonctionnalités</a>
+      <a href="#commands">Commandes</a>
+      <a href="#support">Support</a>
+    </nav>
+
+    <a href="#" class="button invite-link">Inviter ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="status">
+          <span class="dot"></span>
+          BOT DISCORD POLYVALENT
+        </div>
+
+        <h1>Découvre<br><span>spmBOT.</span></h1>
+
+        <p>
+          Améliore ton serveur Discord avec spmBOT.
+          Découvre ses fonctionnalités et profite
+          d'une expérience simple et pratique.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#" class="button invite-link">Ajouter à Discord ↗</a>
+          <a href="#commands" class="button secondary">Voir les commandes</a>
+        </div>
+      </div>
+
+      <div class="bot-card">
+        <div class="avatar">S</div>
+        <h2>spmBOT</h2>
+        <p class="tag">DISCORD BOT</p>
+        <div class="bot-status">
+          <span class="dot"></span> Prêt à vous aider
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="heading">
+        <span class="eyebrow">FONCTIONNALITÉS</span>
+        <h2>Un bot, plusieurs <span>possibilités.</span></h2>
+        <p>Tout ce qu'il faut pour accompagner ton serveur.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="icon">⚡</div>
+          <h3>Rapide</h3>
+          <p>Des commandes pratiques et accessibles.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🛠️</div>
+          <h3>Polyvalent</h3>
+          <p>Des outils utiles pour ta communauté.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">💜</div>
+          <h3>Simple</h3>
+          <p>Une utilisation facile pour tous les membres.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section commands" id="commands">
+      <div class="heading">
+        <span class="eyebrow">COMMANDES</span>
+        <h2>Les commandes <span>spmBOT.</span></h2>
+        <p>Retrouve les commandes du bot.</p>
+      </div>
+
+      <input
+        type="search"
+        id="commandSearch"
+        placeholder="Rechercher une commande..."
+      >
+
+      <div id="commandList" class="command-list"></div>
+      <p id="emptyMessage" hidden>Aucune commande trouvée.</p>
+    </section>
+
+    <section class="section" id="support">
+      <div class="support-card">
+        <span class="eyebrow">SUPPORT DISCORD</span>
+        <h2>Besoin d'aide ?<br><span>Nous sommes là.</span></h2>
+        <p>
+          Rejoins notre serveur Discord pour poser
+          tes questions et obtenir de l'aide.
+        </p>
+        <a href="#" class="button support-link">Rejoindre le support ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">spm<span>BOT</span></a>
+    <p>© <span id="year"></span> spmBOT. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
